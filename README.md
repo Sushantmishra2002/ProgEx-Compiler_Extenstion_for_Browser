@@ -1,5 +1,14 @@
 # ProgEx — Run Code Anywhere
 
+---
+
+<img width="1290" height="620" alt="image" src="https://github.com/user-attachments/assets/8d72dfab-fcd2-417b-9584-c15d163f1b5b" />
+
+
+---
+---
+
+
 **ProgEx** is a Chrome Extension that allows you to run programming code instantly from any web page — without switching to an IDE or online compiler.  
 
 Whether you are reading documentation, browsing Stack Overflow, or scrolling through GitHub repos, you can highlight a code snippet, click a small floating icon, and immediately see its output in a popup right on the same page.
