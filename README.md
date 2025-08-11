@@ -80,4 +80,36 @@ Just **select the code** → click the floating **ProgEx icon** → output appea
 ## 🔧 How to Install Locally
 
 1. Download the latest release `.zip` file and extract it.  
-2. Open **Chrome** and go to:  
+2. Open **Chrome** and go to:
+3. Enable **Developer Mode** (toggle in the top right).
+4. Click **Load unpacked**.
+5. Select the folder containing the extracted extension files.
+6. ProgEx will now be available in your Chrome toolbar.
+
+---
+
+## 🌍 How Anyone Can Use It for Themselves
+
+- This extension is open for **personal customization**.
+- You can:
+- Change the icon in the `icons/` folder.
+- Modify styling in `content/content.css` and `ui/popup.css`.
+- Add or remove supported languages in the API request function.
+- Simply clone, edit, and load it in Developer Mode.
+
+---
+
+## 📜 License
+
+This project is released under the **MIT License** — feel free to modify and distribute with credit.
+
+---
+
+## 🙌 Credits
+
+- **Piston API** for free, sandboxed code execution.
+- Chrome Extension Manifest V3 documentation.
+- Inspiration from countless hours of switching tabs to run code 😉
+
+---
+
