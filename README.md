@@ -67,15 +67,6 @@ Just **select the code** → click the floating **ProgEx icon** → output appea
 - **CSS + JavaScript** for modern, responsive design.
 - **Icons** designed to match the developer theme.
 
----
-
-## 🖥 Tech Stack
-
-- **Languages**: HTML, CSS, JavaScript
-- **Extension API**: Chrome Extensions Manifest V3
-- **Backend Execution**: [Piston API](https://github.com/engineer-man/piston) (supports 50+ languages)
-- **UI Design**: Glassmorphism + minimalistic styling
-- **Icons**: Custom PNG icons
 
 ---
 
