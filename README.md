@@ -1,5 +1,5 @@
 # ProgEx — Run Code Anywhere
-
+---
 ---
 
 <img width="1290" height="620" alt="image" src="https://github.com/user-attachments/assets/8d72dfab-fcd2-417b-9584-c15d163f1b5b" />
@@ -14,6 +14,14 @@
 Whether you are reading documentation, browsing Stack Overflow, or scrolling through GitHub repos, you can highlight a code snippet, click a small floating icon, and immediately see its output in a popup right on the same page.
 
 ---
+---
+
+
+<img width="480" height="585" alt="image" src="https://github.com/user-attachments/assets/35967ed1-2907-4324-93a9-2f6e19212dd8" />
+
+---
+---
+
 
 ## 🚀 What is this?
 
