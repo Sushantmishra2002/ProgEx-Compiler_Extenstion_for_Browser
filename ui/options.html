@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>ProgEx Settings</title>
+<style>
+body{font-family:Inter,system-ui,Arial;padding:18px;background:#f8fafc;color:#0f172a}
+.container{max-width:760px;margin:0 auto;background:#fff;padding:16px;border-radius:10px;box-shadow:0 8px 24px rgba(2,6,23,0.06)}
+label{display:block;margin-top:8px;color:#64748b;font-size:13px}
+input{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(2,6,23,0.06);}
+button{margin-top:12px;padding:10px 12px;border-radius:8px;background:#2563eb;color:#fff;border:none;cursor:pointer}
+small{color:#94a3b8}
+</style>
+</head><body>
+<div class="container">
+<h2>ProgEx Settings</h2>
+<p><small>Configure execution API endpoint and preferences.</small></p>
+<label>Execution API Base URL</label>
+<input id="api" placeholder="https://emkc.org/api/v2/piston" />
+<label>Default language (optional)</label>
+<input id="lang" placeholder="python" />
+<button id="save">Save</button>
+<p id="msg"></p>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', ()=>{
+  chrome.storage.local.get(['progex_api','progex_default_lang'], items=>{
+    document.getElementById('api').value = items.progex_api || 'https://emkc.org/api/v2/piston';
+    document.getElementById('lang').value = items.progex_default_lang || '';
+  });
+  document.getElementById('save').onclick = ()=>{
+    const api = document.getElementById('api').value.trim();
+    const lang = document.getElementById('lang').value.trim();
+    chrome.storage.local.set({progex_api:api, progex_default_lang:lang}, ()=>{
+      document.getElementById('msg').innerText = 'Saved.';
+    });
+  };
+});
+</script>
+</body></html>

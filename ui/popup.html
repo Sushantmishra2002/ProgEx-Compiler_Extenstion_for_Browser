@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ProgEx — Run Code</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="panel">
+    <header>
+      <h1>ProgEx</h1>
+      <p class="muted">Run selected code instantly</p>
+    </header>
+
+    <main>
+      <label for="language">Language</label>
+      <select id="language"></select>
+
+      <label for="code">Code</label>
+      <textarea id="code" placeholder="Select code on a page or paste here..."></textarea>
+
+      <div class="controls">
+        <input id="stdin" placeholder="stdin (optional)" />
+        <button id="run">Run</button>
+      </div>
+
+      <label>Output</label>
+      <pre id="output" class="output">No output yet.</pre>
+    </main>
+
+    <footer>
+      <a id="options" href="#">Settings</a>
+    </footer>
+  </div>
+
+<script src="popup.js"></script>
+</body>
+</html>
