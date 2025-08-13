@@ -13,7 +13,7 @@
 
 Whether you are reading documentation, browsing Stack Overflow, or scrolling through GitHub repos, you can highlight a code snippet, click a small floating icon, and immediately see its output in a popup right on the same page.
 
----
+
 ---
 
 
