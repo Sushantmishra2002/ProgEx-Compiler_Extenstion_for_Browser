@@ -20,7 +20,8 @@ Whether you are reading documentation, browsing Stack Overflow, or scrolling thr
 
 |  |  |
 |-------------|----------------|
-| <img width="474" height="579" alt="image" src="https://github.com/user-attachments/assets/dbb88b11-862f-49ac-9e22-a8423c92754c" />| ![Uploading image.png…]()
+| <img width="474" height="579" alt="image" src="https://github.com/user-attachments/assets/dbb88b11-862f-49ac-9e22-a8423c92754c" />| <img width="471" height="638" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/729a5d2e-1574-4a5b-91e3-52706197a149" />
+
 |
 
 
