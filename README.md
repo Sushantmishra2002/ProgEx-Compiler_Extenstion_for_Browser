@@ -16,8 +16,17 @@ Whether you are reading documentation, browsing Stack Overflow, or scrolling thr
 
 ---
 
+## 📸 Screenshots
 
-<img width="480" height="585" alt="image" src="https://github.com/user-attachments/assets/35967ed1-2907-4324-93a9-2f6e19212dd8" />
+|  |  |
+|-------------|----------------|
+| <img width="474" height="579" alt="image" src="https://github.com/user-attachments/assets/dbb88b11-862f-49ac-9e22-a8423c92754c" />| ![Uploading image.png…]()
+|
+
+
+
+
+
 
 ---
 ---
