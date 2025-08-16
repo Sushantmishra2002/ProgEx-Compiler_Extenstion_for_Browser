@@ -123,12 +123,3 @@ This project is released under the **MIT License** — feel free to modify and d
 
 ---
 
-## 🙌 Credits
-
-- **Piston API** for free, sandboxed code execution.
-- Chrome Extension Manifest V3 documentation.
-- Inspiration from countless hours of switching tabs to run code 😉
-
----
----
-
